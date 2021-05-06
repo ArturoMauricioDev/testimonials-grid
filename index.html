@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -9,17 +9,20 @@
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./desktop1024.css" media="screen and (min-width: 1024px)">
 </head>
 <body>
   <main>
     <section class="container-cards">
-      <div class="card">
+      <div class="card violet text-white">
         <div class="card__header">
-          <img src="" alt="">
-          <div class="card__header__name">
-            Daniel Clifford
-            Verified Graduate
+          <img src="./images/image-daniel.jpg" alt="">
+          <div class="header-card__name-container">
+            <p class="name">Daniel Clifford</p>
+            <p class="ocupation">Verified Graduate</p>
           </div>
         </div>
         <div class="card__title">
@@ -37,15 +40,55 @@
           </p>
         </div>
       </div>
+      <div class="card grayish text-white">
+        <div class="card__header">
+          <img src="./images/image-jonathan.jpg" alt="">
+          <div class="header-card__name-container">
+            <p class="name">Jonathan Walters</p>
+            <p class="ocupation">Verified Graduate</p>
+          </div>
+        </div>
+        <div class="card__title">
+          <p>
+            The team was very supportive and kept me motivated
+          </p>
+        </div>
+        <div class="card__description">
+          <p>
+            “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
+  for a big company. This was one of the best investments I’ve made in myself. ”
+          </p>
+        </div>
+      </div>
+      <div class="card white">
+        <div class="card__header">
+          <img src="./images/image-jeanette.jpg" alt="">
+          <div class="header-card__name-container">
+            <p class="name">Jeanette Harmon</p>
+            <p class="ocupation">Verified Graduate</p>
+          </div>
+        </div>
+        <div class="card__title">
+          <p>
+            An overall wonderful and rewarding experience
+          </p>
+        </div>
+        <div class="card__description">
+          <p>
+            “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
+  while doing something I love. ”
+          </p>
+        </div>
+      </div>
     </section>
   </main>
  
 
   
 
-  
-
+<!--   
   Jonathan Walters
+  
   Verified Graduate
 
   The team was very supportive and kept me motivated
@@ -89,6 +132,6 @@
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
