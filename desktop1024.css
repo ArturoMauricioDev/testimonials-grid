@@ -1,0 +1,28 @@
+/* *{
+    border:1px solid red;
+} */
+body{
+    height: 100vh;
+}
+.container-cards{
+    padding: 10vh 6vw 0;
+    display: grid;
+    grid-template: 40vh 40vh/1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+       "card-1 card-1 card-2 card-5"
+        "card-3 card-4 card-4 card-5";
+    grid-gap: 1rem;
+}
+.container-cards div:first-child{
+    grid-area: card-1;
+}
+.container-cards div:nth-child(2){
+    grid-area: card-2;
+}
+.container-cards div:nth-child(3){
+    grid-area: card-3;
+}
+.card{
+    margin: 0;
+    padding: 20px 20px;
+}

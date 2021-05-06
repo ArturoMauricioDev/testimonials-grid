@@ -1,0 +1,12 @@
+/* *{
+    border: 1px solid red;
+} */
+.container-cards{
+    grid-gap: 1.5rem;
+    padding: 10vh 8vw 0;
+   
+}
+.card{
+    max-width: none;
+    padding: 20px 18px;
+}
