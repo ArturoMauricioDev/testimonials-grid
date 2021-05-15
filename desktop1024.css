@@ -22,6 +22,12 @@ body{
 .container-cards div:nth-child(3){
     grid-area: card-3;
 }
+.container-cards div:nth-child(4){
+    grid-area: card-4;
+}
+.container-cards div:nth-child(5){
+    grid-area: card-5;
+}
 .card{
     margin: 0;
     padding: 20px 20px;

@@ -35,20 +35,23 @@ html,body{
     max-width: 500px;
     box-shadow:  9px 9px 70px #ccd0d5;
 }
-.violet{
+.bg-violet{
     background: var(--Moderate-violet);
     background-image: url("./images/bg-pattern-quotation.svg");
     background-repeat: no-repeat;
     background-position:90% 0%;
 }
-.grayish{
+.bg-grayish{
     background: var(--Very-dark-grayish-blue);
+}
+.bg-white{
+    background:var(--White);
+}
+.bg-blackish-blue{
+    background: var(--Very-dark-blackish-blue);
 }
 .text-white{
     color: var(--Light-grayish-blue);
-}
-.white{
-    background:var(--White);
 }
 .card__header{
     display: flex; 
