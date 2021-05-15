@@ -33,13 +33,16 @@ html,body{
     width: 100px;
     border-radius: 5px;
     border:1px solid black;
-    color:var(--Very-dark-blackish-blue);
-    background-color: var(--White);
+    color: var(--White);
+    background-color:var(--Very-dark-blackish-blue);
     cursor: pointer;
 }
 .button:hover{
-    color: var(--White);
-    background-color:var(--Very-dark-blackish-blue) ;
+    color:var(--Very-dark-blackish-blue);
+    background-color: var(--White);
+}
+.button:disabled{
+    opacity: 0.5;
 }
 .container-cards{
     padding: 25px 25px 25px;
